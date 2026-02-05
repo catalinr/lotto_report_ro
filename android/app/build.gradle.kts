@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.lotto_report_ro"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "29.0.14206865" // version: https://developer.android.com/ndk/downloads
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
